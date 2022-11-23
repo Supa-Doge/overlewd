@@ -136,7 +136,7 @@ function createUnityInstance(canvas, config, onProgress) {
     }
   });
 
-  var unityInstance = {
+  unityInstance = {
     Module: Module,
     SetFullscreen: function () {
       if (Module.SetFullscreen)
